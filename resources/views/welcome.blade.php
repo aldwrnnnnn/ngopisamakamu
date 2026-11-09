@@ -3,6 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="I Gede Aldi Irawan (@aldwrnnnnn)">
+    <meta name="copyright" content="I Gede Aldi Irawan">
     <meta name="description" content="Ngopi Sama Kamu. Ruang tenang untuk cerita, tawa, dan secangkir kopi hangat di Abiansemal, Badung, Bali. Pilihan kopi nusantara, camilan lezat, dan suasana santai.">
     <title>Ngopi Sama Kamu | Ruang Santai & Seduhan Kopi Hangat</title>
 
@@ -1236,7 +1238,7 @@
 
             <!-- Bottom Copyright -->
             <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#887262]">
-                <p>© 2026 Ngopi Sama Kamu. Semua hak cipta dilindungi.</p>
+                <p>© 2026 Ngopi Sama Kamu. Dibuat & Dikembangkan oleh <a href="https://github.com/aldwrnnnnn" target="_blank" rel="noopener noreferrer" class="hover:text-[#BC5B38] underline transition-colors font-medium text-[#A89586]">I Gede Aldi Irawan</a>. Seluruh hak cipta dilindungi.</p>
                 <p>Diseduh dengan penuh cinta untuk harimu.</p>
             </div>
         </div>

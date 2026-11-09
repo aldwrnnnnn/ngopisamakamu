@@ -1,58 +1,160 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Ngopi Sama Kamu ☕
+### *Tempat Pulang Sejenak, Ngobrol Santai, dan Nikmati Secangkir Kopi Hangat*
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="public/images/logo.png" alt="Logo Ngopi Sama Kamu" width="110" style="border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://github.com/aldwrnnnnn/ngopisamakamu"><img src="https://img.shields.io/badge/Owner-I%20Gede%20Aldi%20Irawan-BC5B38?style=for-the-badge&logo=github&logoColor=white" alt="Owner Badge" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-1A1310?style=for-the-badge" alt="License Badge" /></a>
+  <img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 12" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.3" />
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+> ### 🛡️ Watermark & Pernyataan Kepemilikan Hak Cipta
+> Proyek **"Ngopi Sama Kamu"** ini dirancang, dibangun, dan dimiliki sepenuhnya secara sah oleh **[I Gede Aldi Irawan (@aldwrnnnnn)](https://github.com/aldwrnnnnn)**.
+> 
+> Seluruh kode sumber, arsitektur komponen, tata letak antarmuka (UI/UX), dan aset grafis dilindungi hak cipta (*All Rights Reserved*). 
+> **Dilarang keras**:
+> - Mengklaim proyek ini sebagai karya/portofolio pribadi milik pihak lain.
+> - Menyalin, mendistribusikan ulang, melisensikan ulang, atau memperjualbelikan kode sumber ini tanpa izin tertulis dari pemilik hak cipta.
+> - Menghapus identitas pengembang atau watermark dari berkas repositori ini.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 📖 Tentang Proyek
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Ngopi Sama Kamu** adalah platform web profil dan pemesanan langsung (*direct ordering*) untuk sebuah kedai kopi bergaya *artisan cozy* yang berlokasi di Abiansemal, Badung, Bali. 
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Website ini dirancang bukan sekadar sebagai etalase digital, melainkan sebagai perpanjangan ruang fisik kedai yang menghadirkan rasa tenang, hangat, bersahabat, dan tanpa ketergesaan (*unhurried*). Dilengkapi dengan alur pemesanan instan ke WhatsApp, pelanggan dapat memesan menu favorit, menentukan suhu dan takaran gula, hingga melakukan reservasi tempat tanpa melewati alur checkout yang berbelit-belit.
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+---
 
-## Agentic Development
+## ✨ Fitur-Fitur Unggulan
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+- ☕ **Katalog Menu Interaktif & Transparan**
+  - Penyajian menu lengkap dengan foto asli, deskripsi rasa jujur, serta harga transparan.
+  - Filter kategori dinamis: *Kopi Pilihan*, *Non-Kopi Segar*, dan *Camilan & Pastry*.
+  - Label indikator preferensi (*Best Seller*, *Artisan Pick*, *Vegan Friendly*).
+- 📲 **Sistem Pemesanan Langsung via WhatsApp**
+  - Pelanggan dapat memilih opsi suhu minuman (*Dingin / Hangat*), tingkat kemanisan (*Normal, Less Sugar, No Sugar*), kuantitas, dan catatan khusus.
+  - Secara otomatis menyusun format pesan WhatsApp terstruktur dan langsung terhubung ke nomor admin kedai.
+- 🌿 **Cerita Suasana & Sudut Kedai**
+  - Bagian narasi yang menceritakan fasilitas kedai: area kerja kondusif dengan colokan di setiap meja, Wi-Fi kencang, bar seduh manual (*manual brew*), dan sudut baca santai.
+- 📍 **Informasi Kunjungan & Jam Operasional**
+  - Status buka/tutup harian (08.00 - 22.00 WITA).
+  - Alamat lengkap di Abiansemal, Badung, Bali lengkap dengan rute Google Maps satu kali klik.
+- 📱 **Desain Mobile-First & Aksesibilitas Tinggi**
+  - Tipografi harmonis menggunakan kombinasi *Fraunces* (display artisan hangat) dan *Plus Jakarta Sans* (keterbacaan optimal).
+  - Palet warna nyaman di mata (*Oatmeal*, *Roasted Espresso*, *Warm Caramel*).
+  - Memenuhi standar kontras WCAG AA/AAA dan navigasi keyboard yang ramah pengguna.
 
-```bash
-composer require laravel/boost --dev
+---
 
-php artisan boost:install
+## 🛠️ Tumpukan Teknologi (Tech Stack)
+
+| Komponen | Teknologi |
+| :--- | :--- |
+| **Framework Backend** | [Laravel 12](https://laravel.com/) (PHP 8.3) |
+| **Frontend Styling** | [Tailwind CSS](https://tailwindcss.com/) |
+| **Templating Engine** | Laravel Blade |
+| **Asset Bundler** | [Vite](https://vitejs.dev/) |
+| **Typography** | Google Fonts (*Fraunces* & *Plus Jakarta Sans*) |
+| **Integrasi Kontak** | WhatsApp Direct API Protocol |
+| **Web Server Lokal** | Laragon / Nginx / Apache |
+
+---
+
+## 📁 Struktur Direktori Utama
+
+```text
+ngopisamakamu/
+├── app/                  # Controller & logika inti aplikasi Laravel
+├── bootstrap/            # Inisialisasi dan konfigurasi aplikasi
+├── config/               # Berkas konfigurasi sistem
+├── database/             # Migrasi & seeder database
+├── public/               # Titik masuk publik (index.php) & aset gambar (public/images)
+├── resources/
+│   ├── css/              # Konfigurasi Tailwind CSS (app.css)
+│   ├── js/               # Skrip interaktivitas frontend (app.js)
+│   └── views/            # Tampilan Blade (welcome.blade.php, errors/404.blade.php)
+├── routes/               # Rute web dan konsol
+├── storage/              # Penyimpanan sesi, view terkompilasi, dan log
+├── tests/                # Unit & Feature tests
+├── DESIGN.md             # Panduan estetika, warna, dan filosofi desain
+├── LICENSE               # Lisensi hak cipta resmi proyek
+└── README.md             # Dokumentasi proyek & informasi lisensi
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+---
 
-## Contributing
+## 🚀 Panduan Instalasi Lokal
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Jika Anda ingin menjalankan proyek ini di lingkungan lokal untuk keperluan pembelajaran:
 
-## Code of Conduct
+### 1. Prasyarat
+- PHP >= 8.2 (Direkomendasikan PHP 8.3)
+- Composer
+- Node.js >= 18.x & npm
+- Git
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 2. Kloning Repositori
+```bash
+git clone https://github.com/aldwrnnnnn/ngopisamakamu.git
+cd ngopisamakamu
+```
 
-## Security Vulnerabilities
+### 3. Pasang Dependensi
+```bash
+composer install
+npm install
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 4. Konfigurasi Lingkungan (.env)
+```bash
+cp .env.example .env
+php artisan key:generate
+```
 
-## License
+### 5. Jalankan Server Pengembangan
+Buka dua jendela terminal terpisah atau jalankan perintah berikut:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+# Terminal 1: Kompilasi aset Vite
+npm run dev
+
+# Terminal 2: Jalankan server Laravel
+php artisan serve
+```
+
+Akses aplikasi di peramban Anda melalui: `http://localhost:8000` (atau via virtual host Laragon: `http://ngopisamakamu.test`).
+
+---
+
+## ⚖️ Hak Cipta & Lisensi
+
+Hak Cipta © 2026 **I Gede Aldi Irawan**. Seluruh Hak Dilindungi Undang-Undang (*All Rights Reserved*).
+
+Proyek ini dilindungi di bawah lisensi hak cipta privat/proprietari. Kode sumber dan seluruh aset grafis di dalam repositori ini disediakan untuk tujuan peninjauan portofolio dan referensi pembelajaran non-komersial. Penggunaan ulang, modifikasi, penjualan, maupun redistribusi komersial tanpa izin tertulis dari pemilik hak cipta dilarang keras. 
+
+Lihat berkas [LICENSE](LICENSE) untuk ketentuan hukum lengkap.
+
+---
+
+## 👤 Pengembang & Kontak
+
+Proyek ini dirancang dan dikembangkan dengan penuh dedikasi oleh:
+
+* **Nama Pengembang:** I Gede Aldi Irawan
+* **GitHub:** [@aldwrnnnnn](https://github.com/aldwrnnnnn)
+* **Email:** [gedealdiirawan5@gmail.com](mailto:gedealdiirawan5@gmail.com)
+* **Lokasi:** Badung, Bali, Indonesia
+
+---
+<p align="center">
+  <sub>Diseduh dan dikembangkan dengan sepenuh hati © 2026 <b>Ngopi Sama Kamu</b>.</sub>
+</p>
