@@ -1,0 +1,74 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../views/**/*.blade.php';
+@source '../js/**/*.js';
+
+@theme {
+  --font-serif: 'Fraunces', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --color-cream-50: #FAF7F2;
+  --color-cream-100: #F3EFE6;
+  --color-cream-200: #E8E1D4;
+  --color-cream-300: #D9CFC0;
+
+  --color-espresso-950: #1A1310;
+  --color-espresso-900: #261D18;
+  --color-espresso-800: #3A2D25;
+  --color-espresso-700: #524136;
+  --color-espresso-600: #6B5749;
+  --color-espresso-500: #887262;
+  --color-espresso-400: #A89586;
+
+  --color-caramel-500: #BC5B38;
+  --color-caramel-600: #A14B2B;
+  --color-caramel-700: #853C20;
+  --color-caramel-100: #F8EDE7;
+  --color-caramel-50: #FDF7F4;
+
+  --color-sage-700: #3C503C;
+  --color-sage-600: #4B634B;
+  --color-sage-500: #627C62;
+  --color-sage-100: #EAF0E9;
+  --color-sage-50: #F4F7F3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom interactive outline for accessibility (R-32) */
+:focus-visible {
+  outline: 2px solid #BC5B38;
+  outline-offset: 3px;
+}
+
+/* Custom Scrollbar - Warm Cafe Aesthetic */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9CFC0;
+  border-radius: 9999px;
+  border: 2px solid #FAF7F2;
+  transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BC5B38;
+}
+
+/* Firefox standard scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #D9CFC0 #FAF7F2;
+}
+
